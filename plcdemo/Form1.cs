@@ -29,15 +29,15 @@ namespace plcdemo
         public static extern IntPtr GetPullSDKVersion(string Parameters, int size);
 
 
-		//4.1 Call the connection device function
-		private void btnconnect_Click_1(object sender, EventArgs e)
+//4.1 调用连接设备函数
+        private void btnconnect_Click_1(object sender, EventArgs e)
         {
             string str = "";
-            int ret = 0;        //Used to receive the error ID number
-			Cursor = Cursors.WaitCursor;
+            int ret = 0;        //用于接收错误ID号
+            Cursor = Cursors.WaitCursor;
 
-            if (this.radbtntcp.Checked)         //Get the connection parameters
-				str = this.txttcp.Text;
+            if (this.radbtntcp.Checked)         //获取连接参数
+                str = this.txttcp.Text;
             else if (this.radbtn485.Checked)
                 str = this.txt485.Text;
             if (str == "")
@@ -53,23 +53,23 @@ namespace plcdemo
                     btndisconncet.Enabled = true;
                     btnconnect.Enabled = false;
 
-                    //device param tabpage
-                    btnselparam.Enabled = true;        //After the connection is successful, it makes sense to select the parameter item available
-					btncleparam.Enabled = true;
+                    //device param tab页
+                    btnselparam.Enabled = true;        //连接成功之后，选择参数项可用才有意义
+                    btncleparam.Enabled = true;
                     this.btngetparam.Enabled = false;
                     this.btnsetparam.Enabled = false;
                     cmbparam.Enabled = false;
                     txtchgparam.Enabled = false;
                     btnchgparam.Enabled = false;
 
-                    //Control device tabpage
+                    //Control device tab页
                     btndevcontrol.Enabled = true;
                     cmboperid.Enabled = true;
                     cmbdoorid.Enabled = false;
                     cmboutadd.Enabled = false;
                     txtdoorstate.Enabled = false;
 
-                    //device data Tab item
+                    //device data Tabe项
                     cmbdevtable.Enabled = true;
                     btngetdat.Enabled = false;
                     btnsetdat.Enabled = false;
@@ -79,7 +79,7 @@ namespace plcdemo
                     btnclefil.Enabled = false;
                     this.txtdevdata.Text = "\r\n \r\n Please select tablename above the frame!";
 
-                    //RTLog Tab item
+                    //RTLog Tab项
                     btnrtlogstart.Enabled = true;
                     btnrtlogstop.Enabled = true;
                 }
@@ -87,63 +87,63 @@ namespace plcdemo
                 {
                     ret = PullLastError();
                     MessageBox.Show("Connect device Failed! The error id is: " + ret);
-                    btnselparam.Enabled = false;         //After disconnecting, the selection parameter is not available
+                    btnselparam.Enabled = false;         //断开连接之后，选择参数项不可用
 
-				}
+                }
 
-				/* if (h == IntPtr.Zero)
-				 {
-					 MessageBox.Show("Connect device Failed!");
-					 PullLastError();
-					 btnselparam.Enabled = false;         //After disconnecting, the selection parameter is not available
-					 return;
-				 }
-				 else
-				 {
-					 MessageBox.Show("Connect device successful!");
-					 btndisconncet.Enabled = true;
-					 btnconnect.Enabled = false;
+               /* if (h == IntPtr.Zero)
+                {
+                    MessageBox.Show("Connect device Failed!");
+                    PullLastError();
+                    btnselparam.Enabled = false;         //断开连接之后，选择参数项不可用
+                    return;
+                }
+                else
+                {
+                    MessageBox.Show("Connect device successful!");
+                    btndisconncet.Enabled = true;
+                    btnconnect.Enabled = false;
+                    
+                    //device param tab页
+                    btnselparam.Enabled = true;        //连接成功之后，选择参数项可用才有意义
+                    btncleparam.Enabled = true;
+                    this.btngetparam.Enabled = false;
+                    this.btnsetparam.Enabled = false;
+                    cmbparam.Enabled = false;
+                    txtchgparam.Enabled = false;
+                    btnchgparam.Enabled = false;
 
-					 //device param tab页
-					 btnselparam.Enabled = true;        //连接成功之后，选择参数项可用才有意义
-					 btncleparam.Enabled = true;
-					 this.btngetparam.Enabled = false;
-					 this.btnsetparam.Enabled = false;
-					 cmbparam.Enabled = false;
-					 txtchgparam.Enabled = false;
-					 btnchgparam.Enabled = false;
+                    //Control device tab页
+                    btndevcontrol.Enabled = true;
+                    cmboperid.Enabled = true;
+                    cmbdoorid.Enabled = false;
+                    cmboutadd.Enabled = false;
+                    txtdoorstate.Enabled = false;
 
-					 //Control device tab页
-					 btndevcontrol.Enabled = true;
-					 cmboperid.Enabled = true;
-					 cmbdoorid.Enabled = false;
-					 cmboutadd.Enabled = false;
-					 txtdoorstate.Enabled = false;
+                    //device data Tabe项
+                    cmbdevtable.Enabled = true;
+                    btngetdat.Enabled = false;
+                    btnsetdat.Enabled = false;
+                    btndeldata.Enabled = false;
+                    btndatcount.Enabled = false;
+                    btnfil.Enabled = false;
+                    btnclefil.Enabled = false;
+                    this.txtdevdata.Text = "\r\n \r\n Please select tablename above the frame!";
 
-					 //device data Tabe项
-					 cmbdevtable.Enabled = true;
-					 btngetdat.Enabled = false;
-					 btnsetdat.Enabled = false;
-					 btndeldata.Enabled = false;
-					 btndatcount.Enabled = false;
-					 btnfil.Enabled = false;
-					 btnclefil.Enabled = false;
-					 this.txtdevdata.Text = "\r\n \r\n Please select tablename above the frame!";
-
-					 //RTLog Tab项
-					 btnrtlogstart.Enabled = true;
-					 btnrtlogstop.Enabled = true;
-				 }*/
-			}
-		}
+                    //RTLog Tab项
+                    btnrtlogstart.Enabled = true;
+                    btnrtlogstop.Enabled = true;
+                }*/
+            }
+        }
 
 
         [DllImport("plcommpro.dll", EntryPoint = "Disconnect")]
         public static extern void Disconnect(IntPtr h);
 
 
-		//4.2 Call the disconnect function
-		private void btndisconncet_Click(object sender, EventArgs e)
+//4.2 调用断开连接函数
+        private void btndisconncet_Click(object sender, EventArgs e)
         {
             if (IntPtr.Zero != h)
             {
@@ -189,15 +189,15 @@ namespace plcdemo
         private void Form1_Load(object sender, EventArgs e)
         {
             this.btndisconncet.Enabled = false;
-            this.cmboperid.SelectedIndex = 1;       //Set the default value for device control page operation id
-													//this.cmbdevtable.SelectedIndex = 0;
-			this.radbtntcp.Checked = true;
+            this.cmboperid.SelectedIndex = 1;       //设置设备控制页面操作id的默认值
+            //this.cmbdevtable.SelectedIndex = 0;
+            this.radbtntcp.Checked = true;
 
             //device param  tab页
-            this.btngetparam.Enabled = false;   //Acquire device parameters by default is not available state, the choice of which parameters, the state will automatically become available
-			btnsetparam.Enabled = false;
-            btnselparam.Enabled = false;         //After disconnecting, the selection parameter is not available
-			btncleparam.Enabled = false;
+            this.btngetparam.Enabled = false;   //获取设备参数默认为不可用状态，选择要哪个参数后，该状态就自动变为可用
+            btnsetparam.Enabled = false;
+            btnselparam.Enabled = false;         //断开连接之后，选择参数项不可用
+            btncleparam.Enabled = false;
             cmbparam.Enabled = false;
             txtchgparam.Enabled = false;
             btnchgparam.Enabled = false;
@@ -229,8 +229,8 @@ namespace plcdemo
         }
 
 
-		//Select the parameter to read the value of
-		private void btnselparam_Click(object sender, EventArgs e)
+        //选择要读取值的参数
+        private void btnselparam_Click(object sender, EventArgs e)
         {
             string prestr = "";
             string selstr = "";
@@ -248,8 +248,8 @@ namespace plcdemo
                     for (int j = 0; j < this.lsvselparam.Items.Count; j++)
                     {
                         selstr = this.lsvselparam.Items[j].Text;
-                        if (string.Equals(prestr, selstr))        //Judge the selected parameters and the list of parameters without duplication
-						{
+                        if (string.Equals(prestr, selstr))        //判断选择的参数与列表中的参数没有重复项
+                        {
                             tag = false;
                         }
                     }
@@ -266,8 +266,8 @@ namespace plcdemo
         }
 
 
-		//Clear the selected parameters
-		private void btncleparam_Click(object sender, EventArgs e)
+        //将选择的参数清空
+        private void btncleparam_Click(object sender, EventArgs e)
         {
             if (this.lsvselparam.Items.Count == 0)
             {
@@ -290,8 +290,8 @@ namespace plcdemo
         [DllImport("plcommpro.dll", EntryPoint = "GetDeviceParam")]
         public static extern int GetDeviceParam(IntPtr h, ref byte buffer,int buffersize, string itemvalues);
 
-		//4.4 Call read device parameter function
-		private void btngetparam_Click(object sender, EventArgs e)
+//4.4 调用读取设备参数函数
+        private void btngetparam_Click(object sender, EventArgs e)
         {
             if (IntPtr.Zero != h)
             {
@@ -312,8 +312,8 @@ namespace plcdemo
                     i++;
                 } while (i < lv_sel_count);
                 //MessageBox.Show(str);
-                ret = GetDeviceParam(h, ref buffer[0], BUFFERSIZE, str);       //Get the device parameter value
-				if (ret >= 0)
+                ret = GetDeviceParam(h, ref buffer[0], BUFFERSIZE, str);       //获取设备参数值
+                if (ret >= 0)
                 {
                     tmp = Encoding.Default.GetString(buffer);
                     //MessageBox.Show(tmp);
