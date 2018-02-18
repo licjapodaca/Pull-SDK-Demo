@@ -1147,8 +1147,5 @@ namespace plcdemo
                     MessageBox.Show("Please connect device");
             }
         }
-
-
-
-    }
+	}
 }
