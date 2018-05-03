@@ -29,216 +29,216 @@
         private void InitializeComponent()
         {
 			this.components = new System.ComponentModel.Container();
-			System.Windows.Forms.ListViewItem listViewItem73 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "LockCount",
             "only read"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem74 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "ReaderCount",
             "only read"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem75 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "AuxInCount",
             "only read"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem76 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "AuxOutCount",
             "only read"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem77 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "ComPwd",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem78 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "IPAddress",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem79 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "GATEIPAddress",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem80 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "NetMask",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem81 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "AntiPassback",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem82 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
             "InterLock",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem83 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1ForcePassWord",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem84 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2ForcePassWord",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem85 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3ForcePassWord",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem86 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4ForcePassWord",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem87 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1SupperPassWord",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem88 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2SupperPassWord",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem89 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3SupperPassWord",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem90 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4SupperPassWord",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem91 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1CloseAndLock",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem92 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2CloseAndLock",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem93 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3CloseAndLock",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem94 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4CloseAndLock",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem95 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1SensorType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem96 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2SensorType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem97 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3SensorType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem98 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4SensorType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem99 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1Drivertime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem100 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2Drivertime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem101 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3Drivertime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem102 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4Drivertime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem103 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1Detectortime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem104 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2Detectortime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem105 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3Detectortime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem106 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4Detectortime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem107 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem35 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1VerifyType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem108 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem36 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2VerifyType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem109 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem37 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3VerifyType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem110 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem38 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4VerifyType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem111 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem39 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1MultiCardOpenDoor",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem112 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem40 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2MultiCardOpenDoor",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem113 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem41 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3MultiCardOpenDoor",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem114 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem42 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4MultiCardOpenDoor",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem115 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem43 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1FirstCardOpenDoor",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem116 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem44 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2FirstCardOpenDoor",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem117 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem45 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3FirstCardOpenDoor",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem118 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem46 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4FirstCardOpenDoor",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem119 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem47 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1ValidTZ",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem120 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem48 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2ValidTZ",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem121 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem49 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3ValidTZ",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem122 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem50 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4ValidTZ",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem123 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem51 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1KeepOpenTimeZone",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem124 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem52 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2KeepOpenTimeZone",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem125 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem53 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3KeepOpenTimeZone",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem126 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem54 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4KeepOpenTimeZone",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem127 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem55 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1Intertime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem128 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem56 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2Intertime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem129 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem57 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3Intertime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem130 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem58 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4Intertime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem131 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem59 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1ReaderType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem132 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem60 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2ReaderType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem133 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem61 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3ReaderType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem134 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem62 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4ReaderType",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem135 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem63 = new System.Windows.Forms.ListViewItem(new string[] {
             "WatchDog",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem136 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem64 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4ToDoor2",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem137 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem65 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door1CancelKeepOpenDay",
             "read only"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem138 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem66 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door2CancelKeepOpenDay",
             "read only"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem139 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem67 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door3CancelKeepOpenDay",
             "read only"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem140 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem68 = new System.Windows.Forms.ListViewItem(new string[] {
             "Door4CancelKeepOpenDay",
             "read only"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem141 = new System.Windows.Forms.ListViewItem(new string[] {
+			System.Windows.Forms.ListViewItem listViewItem69 = new System.Windows.Forms.ListViewItem(new string[] {
             "BackupTime",
             "read and write"}, -1);
-			System.Windows.Forms.ListViewItem listViewItem142 = new System.Windows.Forms.ListViewItem("Reboot");
-			System.Windows.Forms.ListViewItem listViewItem143 = new System.Windows.Forms.ListViewItem("DateTime");
-			System.Windows.Forms.ListViewItem listViewItem144 = new System.Windows.Forms.ListViewItem("Door4ToDoor2");
+			System.Windows.Forms.ListViewItem listViewItem70 = new System.Windows.Forms.ListViewItem("Reboot");
+			System.Windows.Forms.ListViewItem listViewItem71 = new System.Windows.Forms.ListViewItem("DateTime");
+			System.Windows.Forms.ListViewItem listViewItem72 = new System.Windows.Forms.ListViewItem("Door4ToDoor2");
 			this.cmboutadd = new System.Windows.Forms.ComboBox();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.label21 = new System.Windows.Forms.Label();
@@ -424,7 +424,7 @@
 			this.txttcp.Name = "txttcp";
 			this.txttcp.Size = new System.Drawing.Size(473, 20);
 			this.txttcp.TabIndex = 1;
-			this.txttcp.Text = "protocol=TCP,ipaddress=192.168.3.17,port=4370,timeout=2000,passwd=";
+			this.txttcp.Text = "protocol=TCP,ipaddress=192.168.1.201,port=4370,timeout=2000,passwd=";
 			// 
 			// radbtntcp
 			// 
@@ -592,125 +592,125 @@
 			this.lsvpreparam.GridLines = true;
 			this.lsvpreparam.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
 			this.lsvpreparam.HideSelection = false;
-			listViewItem73.StateImageIndex = 0;
-			listViewItem74.StateImageIndex = 0;
-			listViewItem75.StateImageIndex = 0;
-			listViewItem76.StateImageIndex = 0;
-			listViewItem81.StateImageIndex = 0;
-			listViewItem82.StateImageIndex = 0;
-			listViewItem95.StateImageIndex = 0;
-			listViewItem96.StateImageIndex = 0;
-			listViewItem97.StateImageIndex = 0;
-			listViewItem98.StateImageIndex = 0;
-			listViewItem99.StateImageIndex = 0;
-			listViewItem100.StateImageIndex = 0;
-			listViewItem101.StateImageIndex = 0;
-			listViewItem102.StateImageIndex = 0;
-			listViewItem103.StateImageIndex = 0;
-			listViewItem104.StateImageIndex = 0;
-			listViewItem105.StateImageIndex = 0;
-			listViewItem106.StateImageIndex = 0;
-			listViewItem107.StateImageIndex = 0;
-			listViewItem108.StateImageIndex = 0;
-			listViewItem109.StateImageIndex = 0;
-			listViewItem110.StateImageIndex = 0;
-			listViewItem111.StateImageIndex = 0;
-			listViewItem112.StateImageIndex = 0;
-			listViewItem113.StateImageIndex = 0;
-			listViewItem114.StateImageIndex = 0;
-			listViewItem115.StateImageIndex = 0;
-			listViewItem116.StateImageIndex = 0;
-			listViewItem117.StateImageIndex = 0;
-			listViewItem118.StateImageIndex = 0;
-			listViewItem119.StateImageIndex = 0;
-			listViewItem120.StateImageIndex = 0;
-			listViewItem121.StateImageIndex = 0;
-			listViewItem122.StateImageIndex = 0;
-			listViewItem123.StateImageIndex = 0;
-			listViewItem124.StateImageIndex = 0;
-			listViewItem125.StateImageIndex = 0;
-			listViewItem126.StateImageIndex = 0;
-			listViewItem127.StateImageIndex = 0;
-			listViewItem128.StateImageIndex = 0;
-			listViewItem129.StateImageIndex = 0;
-			listViewItem130.StateImageIndex = 0;
-			listViewItem131.StateImageIndex = 0;
-			listViewItem132.StateImageIndex = 0;
-			listViewItem133.StateImageIndex = 0;
-			listViewItem134.StateImageIndex = 0;
+			listViewItem1.StateImageIndex = 0;
+			listViewItem2.StateImageIndex = 0;
+			listViewItem3.StateImageIndex = 0;
+			listViewItem4.StateImageIndex = 0;
+			listViewItem9.StateImageIndex = 0;
+			listViewItem10.StateImageIndex = 0;
+			listViewItem23.StateImageIndex = 0;
+			listViewItem24.StateImageIndex = 0;
+			listViewItem25.StateImageIndex = 0;
+			listViewItem26.StateImageIndex = 0;
+			listViewItem27.StateImageIndex = 0;
+			listViewItem28.StateImageIndex = 0;
+			listViewItem29.StateImageIndex = 0;
+			listViewItem30.StateImageIndex = 0;
+			listViewItem31.StateImageIndex = 0;
+			listViewItem32.StateImageIndex = 0;
+			listViewItem33.StateImageIndex = 0;
+			listViewItem34.StateImageIndex = 0;
+			listViewItem35.StateImageIndex = 0;
+			listViewItem36.StateImageIndex = 0;
+			listViewItem37.StateImageIndex = 0;
+			listViewItem38.StateImageIndex = 0;
+			listViewItem39.StateImageIndex = 0;
+			listViewItem40.StateImageIndex = 0;
+			listViewItem41.StateImageIndex = 0;
+			listViewItem42.StateImageIndex = 0;
+			listViewItem43.StateImageIndex = 0;
+			listViewItem44.StateImageIndex = 0;
+			listViewItem45.StateImageIndex = 0;
+			listViewItem46.StateImageIndex = 0;
+			listViewItem47.StateImageIndex = 0;
+			listViewItem48.StateImageIndex = 0;
+			listViewItem49.StateImageIndex = 0;
+			listViewItem50.StateImageIndex = 0;
+			listViewItem51.StateImageIndex = 0;
+			listViewItem52.StateImageIndex = 0;
+			listViewItem53.StateImageIndex = 0;
+			listViewItem54.StateImageIndex = 0;
+			listViewItem55.StateImageIndex = 0;
+			listViewItem56.StateImageIndex = 0;
+			listViewItem57.StateImageIndex = 0;
+			listViewItem58.StateImageIndex = 0;
+			listViewItem59.StateImageIndex = 0;
+			listViewItem60.StateImageIndex = 0;
+			listViewItem61.StateImageIndex = 0;
+			listViewItem62.StateImageIndex = 0;
 			this.lsvpreparam.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem73,
-            listViewItem74,
-            listViewItem75,
-            listViewItem76,
-            listViewItem77,
-            listViewItem78,
-            listViewItem79,
-            listViewItem80,
-            listViewItem81,
-            listViewItem82,
-            listViewItem83,
-            listViewItem84,
-            listViewItem85,
-            listViewItem86,
-            listViewItem87,
-            listViewItem88,
-            listViewItem89,
-            listViewItem90,
-            listViewItem91,
-            listViewItem92,
-            listViewItem93,
-            listViewItem94,
-            listViewItem95,
-            listViewItem96,
-            listViewItem97,
-            listViewItem98,
-            listViewItem99,
-            listViewItem100,
-            listViewItem101,
-            listViewItem102,
-            listViewItem103,
-            listViewItem104,
-            listViewItem105,
-            listViewItem106,
-            listViewItem107,
-            listViewItem108,
-            listViewItem109,
-            listViewItem110,
-            listViewItem111,
-            listViewItem112,
-            listViewItem113,
-            listViewItem114,
-            listViewItem115,
-            listViewItem116,
-            listViewItem117,
-            listViewItem118,
-            listViewItem119,
-            listViewItem120,
-            listViewItem121,
-            listViewItem122,
-            listViewItem123,
-            listViewItem124,
-            listViewItem125,
-            listViewItem126,
-            listViewItem127,
-            listViewItem128,
-            listViewItem129,
-            listViewItem130,
-            listViewItem131,
-            listViewItem132,
-            listViewItem133,
-            listViewItem134,
-            listViewItem135,
-            listViewItem136,
-            listViewItem137,
-            listViewItem138,
-            listViewItem139,
-            listViewItem140,
-            listViewItem141,
-            listViewItem142,
-            listViewItem143,
-            listViewItem144});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5,
+            listViewItem6,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9,
+            listViewItem10,
+            listViewItem11,
+            listViewItem12,
+            listViewItem13,
+            listViewItem14,
+            listViewItem15,
+            listViewItem16,
+            listViewItem17,
+            listViewItem18,
+            listViewItem19,
+            listViewItem20,
+            listViewItem21,
+            listViewItem22,
+            listViewItem23,
+            listViewItem24,
+            listViewItem25,
+            listViewItem26,
+            listViewItem27,
+            listViewItem28,
+            listViewItem29,
+            listViewItem30,
+            listViewItem31,
+            listViewItem32,
+            listViewItem33,
+            listViewItem34,
+            listViewItem35,
+            listViewItem36,
+            listViewItem37,
+            listViewItem38,
+            listViewItem39,
+            listViewItem40,
+            listViewItem41,
+            listViewItem42,
+            listViewItem43,
+            listViewItem44,
+            listViewItem45,
+            listViewItem46,
+            listViewItem47,
+            listViewItem48,
+            listViewItem49,
+            listViewItem50,
+            listViewItem51,
+            listViewItem52,
+            listViewItem53,
+            listViewItem54,
+            listViewItem55,
+            listViewItem56,
+            listViewItem57,
+            listViewItem58,
+            listViewItem59,
+            listViewItem60,
+            listViewItem61,
+            listViewItem62,
+            listViewItem63,
+            listViewItem64,
+            listViewItem65,
+            listViewItem66,
+            listViewItem67,
+            listViewItem68,
+            listViewItem69,
+            listViewItem70,
+            listViewItem71,
+            listViewItem72});
 			this.lsvpreparam.LabelEdit = true;
 			this.lsvpreparam.LabelWrap = false;
 			this.lsvpreparam.Location = new System.Drawing.Point(8, 33);
