@@ -29,6 +29,18 @@ namespace plcdemo
         public static extern IntPtr GetPullSDKVersion(string Parameters, int size);
 
 
+		public int Sumar(int a, int b)
+		{
+			try
+			{
+				return a + b;
+			}
+			catch (Exception)
+			{
+				throw;
+			}
+		}
+
 //4.1 调用连接设备函数
         private void btnconnect_Click_1(object sender, EventArgs e)
         {
